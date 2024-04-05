@@ -7,3 +7,7 @@
 #clear {
   background-color: rgb(177, 109, 240);
 }
+
+.btn {
+  height: 9rem;
+}
