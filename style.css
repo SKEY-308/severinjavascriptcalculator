@@ -3,3 +3,7 @@
   margin: 40;
   vertical-align: baseline;
 }
+
+#clear {
+  background-color: rgb(177, 109, 240);
+}
