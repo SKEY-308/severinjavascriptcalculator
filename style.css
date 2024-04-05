@@ -1,13 +1,17 @@
 * {
   padding: 0;
-  margin: 20;
+  margin: 12;
   vertical-align: baseline;
 }
 
 #clear {
   background-color: rgb(177, 109, 240);
 }
+#clear:hover {
+  background-color: rgb(92, 88, 88);
+  transition: 0.3s;
+}
 
 .btn {
-  height: 9rem;
+  height: 7rem;
 }
