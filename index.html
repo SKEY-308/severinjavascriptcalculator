@@ -10,14 +10,12 @@
 
     <script>
         function display(number) {
-            // document.getElementById('display').innerHTML = '9'
-            // console.log(parseInt(document.getElementById('display').textContent) + number)
-            // let nbr = parseInt(document.getElementById('display').textContent) + number;
 
-            if (document.getElementById('display').innerHTML === 0) {
+            if (document.getElementById('display').innerHTML === "0") {
                 document.getElementById('display').innerHTML = number
+            } else {
+                document.getElementById('display').innerHTML += number
             }
-            document.getElementById('display').innerHTML += number
         }
 
         function clearDisplay() {
